@@ -1,0 +1,77 @@
+.user-list-container {
+  padding: 2rem;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.container-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilização do wrapper do input de busca */
+.search-wrapper {
+  position: relative;
+  width: 500px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 0.8rem; /* Espaço para ícone de lupa */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Ícone da lupa dentro do input */
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Evita interferência do clique */
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+/* Botão "Criar Usuário" */
+.create-button {
+  margin-left: 1rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.table-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.modal-actions button {
+  margin-left: 1rem;
+}

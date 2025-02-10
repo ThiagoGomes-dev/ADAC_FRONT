@@ -1,0 +1,187 @@
+.company-list-container {
+  padding: 20px 50px;
+}
+
+.company-list-container h2{
+  font-weight: bold;
+}
+
+.company-list-container .custom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.company-list-container .search-input {
+  width: 70%;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #333;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.company-list-container .search-input:focus {
+  outline: none;
+  border-color: #9c9c9c;
+}
+
+.company-list-container .search-input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.custom-container .btn-cadastrar {
+  width: 15% !important;
+  background-color: #167933;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease; 
+}
+
+.company-list-container .btn-cadastrar:hover {
+  font-weight: bold;
+  background-color: #27d15a;
+  border: none;
+}
+
+/* Ícones de Ação */
+.company-list-container .action-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1px;
+}
+
+.company-list-container .action-icons button {
+  padding: 0;
+  font-size: 20px;
+}
+
+.company-list-container .action-icons .icons-edit {
+  font-size: 20px;
+  transition: color 0.3s ease;
+  color: #149e32;
+  background-color: transparent;
+  border: none;
+}
+
+.company-list-container .action-icons .icons-edit:hover {
+  background-color: transparent;
+  border: none;
+  color: #27d15a;
+}
+
+.company-list-container .action-icons .icons-delete {
+  font-size: 20px;
+  transition: color 0.3s ease;
+  color: #c00202;
+  background-color: transparent;
+  border: none;
+}
+
+.company-list-container .action-icons .icons-delete:hover {
+  background-color: transparent;
+  border: none;
+  color: #ff2020;
+}
+
+/* Estilos do Modal */
+.company-list-modal .modal-dialog {
+  position: fixed;
+  left: 40%;
+  border: none;
+}
+
+.company-list-modal .modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 550px;
+}
+
+.company-list-modal .modal-header {
+  border-bottom: none;
+  background-color: #f8f9fa;
+}
+
+.company-list-modal .modal-body {
+  padding: 20px;
+}
+
+.company-list-modal .modal-body .form-label{
+  margin-bottom: 2px;
+}
+
+.company-list-modal .modal-body .form-control{
+  margin-bottom: 10px;
+}
+
+.company-list-modal .modal-footer {
+  display: flex;
+  padding-top: 10px;
+  flex-wrap: nowrap;
+}
+
+.company-list-modal .cancelar-btn, .confirmar-btn {
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.company-list-modal .cancelar-btn {
+  width: 300px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+}
+
+.company-list-modal .confirmar-btn {
+  width: 300px;
+  background-color: #167933;
+  color: #fff;
+  border: none;
+}
+
+.company-list-modal .cancelar-btn:hover {
+  background-color: #cc2323;
+  color: white;
+}
+
+.company-list-modal .confirmar-btn:hover {
+  background-color: #27d15a;
+  color: white;
+}
+
+/* Estilos para a Paginação */
+.company-list-container .pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.company-list-container .pagination .page-link {
+  color: #a5a5a5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.company-list-container .pagination .page-link:hover {
+  background-color: transparent;
+  color: #149e32;
+  font-weight: bold;
+}
+
+.company-list-container .pagination .page-item.active .page-link {
+  background-color: #167933;
+  color: white;
+}

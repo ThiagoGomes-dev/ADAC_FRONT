@@ -1,0 +1,26 @@
+/* src/components/Home/Home.css */
+
+/* Estilo para o container da Home */
+.home-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Estilo para o conteúdo da Home */
+  .home-content {
+    margin-left: 250px;  /* Espaço para o sidebar */
+    padding: 20px;
+    width: calc(100% - 250px);  /* Garantir que o conteúdo não se sobreponha ao sidebar */
+  }
+  
+  .home-content h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: #666;
+  }
+  

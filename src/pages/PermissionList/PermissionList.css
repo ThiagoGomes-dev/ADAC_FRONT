@@ -1,0 +1,64 @@
+.permission-list-container {
+    padding: 20px 50px;
+}
+  
+.permission-list-container h2{
+    font-weight: bold;
+}
+  
+.permission-list-container .custom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+  
+.permission-list-container .search-input {
+    width: 70%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-right: 20px;
+}
+  
+.permission-list-container .search-input:focus {
+    outline: none;  
+    border-color: #9c9c9c;  
+}
+  
+.permission-list-container .search-input::placeholder {
+    color: #aaa; 
+    font-style: italic; 
+}
+
+/* Estilos para a Paginação */
+.permission-list-container .pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+  
+.permission-list-container .pagination .page-link {
+    color: #a5a5a5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+  
+.permission-list-container .pagination .page-link:hover {
+    background-color: transparent;
+    color: #149e32;
+    font-weight: bold;
+}
+  
+.permission-list-container .pagination .page-item.active .page-link {
+    background-color: #167933;
+    color: white;
+}

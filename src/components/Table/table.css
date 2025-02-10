@@ -1,0 +1,88 @@
+.table-container .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-container .table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+.table-container .table td {
+  color: #555;
+}
+
+.table-container .table td, .table-container .table th {
+  border-right: 1px solid #ddd; 
+}
+
+.table-container .table td:last-child,
+.table-container .table th:last-child {
+  border-right: none;
+}
+
+.table-container .table tbody {
+  vertical-align: middle;
+  border: 1px solid #ddd; 
+}
+
+.table-container .table thead {
+  vertical-align: middle;
+  border: 1px solid #ddd; 
+}
+
+.table-container .table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+.table-container .table .action-icons button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size:  20px;
+}
+
+.table-container .table .icons-edit {
+  color: #149e32;
+}
+
+.table-container .table .icons-edit:hover {
+  color: #27d15a;
+}
+
+.table-container .table .icons-delete {
+  color: #c00202;
+}
+
+.table-container .table .icons-delete:hover {
+  color: #ff2020;
+}
+
+.icons-view {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.icons-view:hover {
+  color: #0056b3;
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

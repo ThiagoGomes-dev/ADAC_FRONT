@@ -1,0 +1,21 @@
+.user-view-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .alert {
+    margin-bottom: 20px;
+  }
+  

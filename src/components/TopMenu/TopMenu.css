@@ -1,0 +1,37 @@
+body {
+  font-family: 'Baloo 2', cursive;
+}
+
+.top-menu{
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* garante que o padding não ultrapasse a largura */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+}
+
+.dropdown-icon {
+  color: #333;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
